@@ -1,0 +1,116 @@
+.mainH1{
+  text-align: center;
+  font-size: 75px;
+  margin-top: 20%;
+  font-family: 'Work Sans', sans-serif;
+  color: #66FCF1;
+}
+.mainP{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+body {
+  background-image: url("../assets/bar-bg.jpeg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*Button Animation*/
+
+.signup-btn::before {
+  background: #66FCF1;
+}
+
+.signup-btn:hover {
+  text-decoration: none;
+  color: #0B0C10;
+}
+
+.signup-btn:focus {
+  text-decoration: none;
+}
+
+.signup-btn:hover::before,
+.signup-btn:focus::before,
+.signup-btn:active::before {
+  -webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  -moz-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  -o-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+  -webkit-transform: scaleY(1);
+  -moz-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.signup-btn {
+  align-content: center;
+  color: white;
+  border: 2px solid #66FCF1;
+  width: 25%;
+  height: 55px;
+  font-size: 40px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font: 300 1rem 'Oswald', sans-serif;
+  display: inline-block;
+  min-width: 200px;
+  padding: 15px 5px;
+  -webkit-transition: color .2s linear;
+  -moz-transition: color .2s linear;
+  -o-transition: color .2s linear;
+  transition: color .2s linear;
+  -webkit-transform: perspective(1px) translateZ(0);
+  -moz-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 4px solid #66FCF1;
+  background-color: transparent;
+}
+
+.signup-btn::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: transform, -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
+  -webkit-transform: scaleY(0);
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  background: #66FCF1;
+} 

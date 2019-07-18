@@ -1,0 +1,86 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .mainH1{
+        font-size: 30px;
+    }
+    .mainP{
+       font-size: 20px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navImage{
+
+    }
+    .topLoginBtn{
+
+    }
+    .topSignUpBtn{
+
+    }
+    .mainH1{
+
+    }
+    .mainP{
+
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navImage{
+
+    }
+    .topLoginBtn{
+        margin-left: 30%;
+    }
+    .topSignUpBtn{
+
+    }
+    .mainH1{
+        font-size: 80px;
+    }
+    .mainP{
+
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navImage{
+
+    }
+    .topLoginBtn{
+        margin-left: 50%;
+    }
+    .topSignUpBtn{
+
+    }
+    .mainH1{
+
+    }
+    .mainP{
+
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navImage{
+
+    }
+    .topLoginBtn {
+        margin-left: 70%;
+    }
+    .topSignUpBtn{
+
+    }
+    .mainH1{
+
+    }
+    .mainP{
+
+    }
+}
